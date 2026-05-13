@@ -1,0 +1,66 @@
+{
+  "metrics": {
+    "status": "partial",
+    "evidence": {
+      "quote": "数千万くらいにはなる気はするけど、ちゃんと計算しないと、なんとも言えないですね。",
+      "speaker": "田中 部長(顧客)",
+      "interpretation": "効果規模は数千万円と定性的に推測されているが、精緻な ROI 試算は持ち合わせておらず、具体的な金額の確度は低い。"
+    }
+  },
+  "economic_buyer": {
+    "status": "unconfirmed",
+    "evidence": {
+      "quote": "最終的には、役員にも相談しないといけない",
+      "speaker": "田中 部長(顧客)",
+      "interpretation": "役員への相談が必要であることは示唆されているが、誰が経済意思決定者(EB)かは明示されていない。"
+    }
+  },
+  "decision_criteria": {
+    "status": "unconfirmed",
+    "evidence": {
+      "quote": "最終的に判断するときは、機能とコストで判断する、というのがうちの基本スタンスです",
+      "speaker": "田中 部長(顧客)",
+      "interpretation": "「機能とコスト」という大枠の評価軸は提示されているが、具体的な評価項目(セキュリティ、サポート体制、SAP 連携性等)までは出ていない。"
+    }
+  },
+  "decision_process": {
+    "status": "unconfirmed",
+    "evidence": {
+      "quote": "正式な検討は来月以降になるかなと思います",
+      "speaker": "鈴木 課長(顧客)",
+      "interpretation": "検討開始時期の大まかな目安は触れられているが、稟議フローや意思決定ステップ、最終決裁タイミングは未確認。"
+    }
+  },
+  "paper_process": {
+    "status": "unconfirmed",
+    "evidence": {
+      "quote": "",
+      "speaker": "",
+      "interpretation": "議事録内で契約プロセス(法務レビュー、購買稟議、契約書テンプレート等)に関する明示的な言及がない。"
+    }
+  },
+  "identify_pain": {
+    "status": "confirmed",
+    "evidence": {
+      "quote": "B 部品では、営業のフォーキャストが強めに出ていたものを、そのまま生産に投入したところ、実際の納入は半分以下で着地して、結果的に 3 ヶ月分の在庫を抱える羽目になりました。",
+      "speaker": "鈴木 課長(顧客)",
+      "interpretation": "営業フォーキャストの精度問題に起因する過剰在庫が定量的(3 ヶ月分)に語られており、Pain が明確。同様に A 部品欠品によるライン停止も別途議事録内で語られており、欠品・過剰在庫の双方向の業務影響が confirmed の根拠。"
+    }
+  },
+  "champion": {
+    "status": "confirmed",
+    "evidence": {
+      "quote": "うちとしては、予測精度が悪くて、毎月のように工場が振り回されてる状態を、なんとかしたいんですよ。これを変えたいというのが、今日の話の根っこにあります。",
+      "speaker": "田中 部長(顧客)",
+      "interpretation": "製造部長が課題解決への強い意思を本音で示しており、社内推進役を担いうる Champion 性が確立されている。"
+    }
+  },
+  "competition": {
+    "status": "unconfirmed",
+    "evidence": {
+      "quote": "今は Excel で凌いでいる、という言い方が一番近いと思います。",
+      "speaker": "鈴木 課長(顧客)",
+      "interpretation": "現状の対抗手段は Excel + 人力であり、競合ベンダー(SAP IBP 等)の評価・比較は議事録内には出てこない。"
+    }
+  }
+}
