@@ -1,0 +1,14 @@
+[
+  {
+    "name": "phase2_sample",
+    "transcript_path": "prompts/examples/sample_transcript_phase2.md",
+    "gold_path": "prompts/examples/sample_extraction_phase2.json",
+    "expected_phase": 2
+  },
+  {
+    "name": "phase4_sample",
+    "transcript_path": "prompts/examples/sample_transcript_phase4.md",
+    "gold_path": "prompts/examples/sample_extraction_phase4.json",
+    "expected_phase": 4
+  }
+]
